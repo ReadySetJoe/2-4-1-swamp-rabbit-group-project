@@ -9,6 +9,7 @@ body {
   color: #fff;
   font-family: sans-serif;
 }
+/* @import url(http://fonts.googleapis.com/css?family=Hepta+Slab); */
 
 /* ***********HEADER*********** */
 .logo > a > img {
@@ -18,6 +19,14 @@ body {
   background: #eeaf00;
 }
 
+.top > h1 {
+  margin: 30px;
+  font-family: Hepta Slab;
+}
+
+.top > span {
+  margin: 30px;
+}
 
 
 
