@@ -4,6 +4,62 @@
 img {width: 100%;}
 ul {list-style: none; padding-left: unset;}
 a {text-decoration: none;}
-
+body {
+  background: #01A7B7;
+  color: #fff;
+  font-family: sans-serif;
+}
+/* @import url(http://fonts.googleapis.com/css?family=Hepta+Slab); */
 
 /* ***********HEADER*********** */
+.logo > a > img {
+  width: 50%;
+  border: solid 5px #fff;
+  border-radius: 50%;
+  background: #eeaf00;
+}
+
+.top > h1 {
+  margin: 30px;
+  font-family: Hepta Slab;
+}
+
+.top > span {
+  margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#will {
+  border-bottom: 2px solid black;
+}
+
+.bottom-section-1 {
+  text-align: center;
+}
+
+.bottom-section-2 {
+  text-align: center;
+}
+
+.contact-number {
+  font-weight: bolder;
+}
+
+.email-address {
+  font-weight: bold;
+}
