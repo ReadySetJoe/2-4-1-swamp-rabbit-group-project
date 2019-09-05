@@ -55,3 +55,11 @@ body {
 .bottom-section-2 {
   text-align: center;
 }
+
+.contact-number {
+  font-weight: bold;
+}
+
+.email-address {
+  font-weight: bold;
+}
