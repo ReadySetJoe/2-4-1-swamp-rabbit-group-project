@@ -22,10 +22,17 @@ body {
 .top > h1 {
   margin: 30px;
   font-family: Hepta Slab;
+  border: dotted 3px #A54314 ;
+  padding: 15px;
 }
 
 .top > span {
   margin: 30px;
+}
+
+.slogan {
+  border-bottom: solid #8B7366 2px;
+  font-style: italic;
 }
 
 
