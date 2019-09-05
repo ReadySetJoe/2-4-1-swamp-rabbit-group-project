@@ -9,12 +9,12 @@ body {
   color: #fff;
   font-family: sans-serif;
 }
-/* @import url(http://fonts.googleapis.com/css?family=Hepta+Slab); */
 
 /* ***********HEADER*********** */
 .logo {
   position: relative;
 }
+
 .logo > a > img {
   width: 50vw;
   height: 50vw;
@@ -38,8 +38,6 @@ body {
   1px -1px 0 #8B7366,
   -1px 1px 0 #8B7366,
   1px 1px 0 #8B7366;
-
-
 }
 
 .top > h1 {
@@ -54,13 +52,13 @@ body {
 }
 
 .slogan {
-  border-bottom: solid #8B7366 2px;
+  border-bottom: solid #eeaf00 5px;
   font-style: italic;
 }
 
+/* ***********MIDDLE*********** */
 
-
-.middle{
+.middle {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -70,20 +68,20 @@ body {
     width: 12rem;
 }
 
-.bike-img img{
+.bike-img img {
     width: 12rem;
     height: 12rem;
 }
 
-.promo{
-    border-top: 1px solid #FFF;
-    border-bottom: 1px solid #FFF;
+.promo {
+    border-top: 5px solid #eeaf00;
+    border-bottom: 5px solid #eeaf00;
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
 @media (max-width: 480px){
-    .bike-img:not(:first-child){
+    .bike-img:nth-child(n+1){
         display: none;
     }
 
@@ -92,21 +90,10 @@ body {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* ***********MIDDLE*********** */
 
 #will-bottom-1 {
-  border-bottom: 2px solid black;
+  border-bottom: 5px solid #eeaf00;
 }
 
 #will-bottom-2 {
