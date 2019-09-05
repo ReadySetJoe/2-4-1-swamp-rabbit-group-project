@@ -48,6 +48,10 @@ body {
   border-bottom: 2px solid black;
 }
 
+#will-2 {
+  padding-top: 10px;
+}
+
 .bottom-section-1 {
   text-align: center;
 }
@@ -56,10 +60,10 @@ body {
   text-align: center;
 }
 
-.contact-number {
-  font-weight: bolder;
+.contact-number > h5 {
+  font-weight: bold;
 }
 
-.email-address {
-  font-weight: bold;
+.email-address > h5 {
+  font-weight: bolder;
 }
