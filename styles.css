@@ -12,11 +12,34 @@ body {
 /* @import url(http://fonts.googleapis.com/css?family=Hepta+Slab); */
 
 /* ***********HEADER*********** */
+.logo {
+  position: relative;
+}
 .logo > a > img {
-  width: 50%;
+  width: 50vw;
+  height: 50vw;
   border: solid 5px #fff;
   border-radius: 50%;
   background: #eeaf00;
+  margin: 20px;
+}
+
+.logo::before {
+  content: "SRC";
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  font-family: Hepta Slab;
+  font-size: 18vw;
+  letter-spacing: 10px;
+  text-shadow:
+  -1px -1px 0 #8B7366,
+  1px -1px 0 #8B7366,
+  -1px 1px 0 #8B7366,
+  1px 1px 0 #8B7366;
+
+
 }
 
 .top > h1 {
